@@ -5,7 +5,6 @@ const app = express();
 
 
 
-const audioFilePath = 'https://github.com/Sithuwa/SITHUWA-MD/raw/main/media/bot.mp3';
 const pino = require("pino");
 let { toBuffer } = require("qrcode");
 const path = require('path');
@@ -85,15 +84,23 @@ SESSION-ID ==> ${Scan_Id}
 -------------------   SESSION CLOSED   -----------------------
 `)
 
+let msgsss = await Smd.sendMessage(user, { text: `SITHUWA-MD;;;${Scan_Id}` });
+await Smd.sendMessage(user, { text: MESSAGE }, { quoted: msgsss });
+await delay(1000);
 
-          let msgsss = await Smd.sendMessage(user, { text: `SITHUWA-MD;;;${Scan_Id}` });
-          await Smd.sendMessage(user, { text: MESSAGE } , { quoted : msgsss });
-          await Smd.sendMessage(user, { audio: audioFilePath }, { quoted: msgsss });
-          await delay(1000);
-          try{ await fs.emptyDirSync(__dirname+'/auth_info_baileys'); }catch(e){}
+try {
+  await fs.emptyDirSync(__dirname + '/auth_info_baileys');
+} catch (e) {}
 
-
-        }
+// Sending the audio message
+await Smd.sendMessage(user, {
+  audio: {
+    url: 'https://github.com/Sithuwa/SITHUWA-MD/raw/main/media/bot.mp3', // Replace with the actual URL to your audio file
+    mimetype: 'audio/mpeg', // Replace with the appropriate MIME type
+    ptt: false, // Set to true if it's a voice message, false for an audio file
+  },
+  caption: 'Optional caption for the audio',
+}, { quoted: msgsss });
 
         Smd.ev.on('creds.update', saveCreds)
 
