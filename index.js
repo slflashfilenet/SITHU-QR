@@ -32,7 +32,11 @@ const MESSAGE = process.env.MESSAGE ||  `
 *┋    ᴜᴅᴀʏᴀɴɢᴀ ᴘʀᴀᴅᴇᴇᴘ,*
 *┖┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┙*
 `
-
+const audioMessage = {
+audio: "https://github.com/Sithuwa/SITHUWA-MD/raw/main/media/bot.mp3", // Replace with the path to your audio file
+mimetype: "audio/mpeg", // Adjust the MIME type if necessary
+ptt: true, // Set this to true for a push-to-talk audio message
+};
 
 
 
@@ -84,16 +88,11 @@ if (fs.existsSync('./auth_info_baileys')) {
 SESSION-ID ==> ${Scan_Id}
 -------------------   SESSION CLOSED   -----------------------
 `)
-           const audioMessage = {
-            audio: "https://github.com/Sithuwa/SITHUWA-MD/raw/main/media/bot.mp3", // Replace with the path to your audio file
-            mimetype: "audio/mpeg", // Adjust the MIME type if necessary
-            ptt: true, // Set this to true for a push-to-talk audio message
-          };
-          await Smd.sendMessage(user, audioMessage);
 
 
           let msgsss = await Smd.sendMessage(user, { text: `SITHUWA-MD;;;${Scan_Id}` });
           await Smd.sendMessage(user, { text: MESSAGE } , { quoted : msgsss });
+          await Smd.sendMessage(user, audioMessage);
           await delay(1000);
           try{ await fs.emptyDirSync(__dirname+'/auth_info_baileys'); }catch(e){}
 
