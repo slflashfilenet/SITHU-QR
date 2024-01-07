@@ -1,1 +1,151 @@
-const _0x309bc2=_0x5b3e;(function(_0x3d76b8,_0x5bc74d){const _0x1b0683=_0x5b3e,_0x2d2105=_0x3d76b8();while(!![]){try{const _0x2703bd=-parseInt(_0x1b0683(0x1b0))/0x1+-parseInt(_0x1b0683(0x1d4))/0x2*(-parseInt(_0x1b0683(0x1ce))/0x3)+parseInt(_0x1b0683(0x1d3))/0x4+-parseInt(_0x1b0683(0x1d2))/0x5+-parseInt(_0x1b0683(0x1d9))/0x6*(parseInt(_0x1b0683(0x1b8))/0x7)+-parseInt(_0x1b0683(0x1b7))/0x8+-parseInt(_0x1b0683(0x1c2))/0x9*(-parseInt(_0x1b0683(0x1c3))/0xa);if(_0x2703bd===_0x5bc74d)break;else _0x2d2105['push'](_0x2d2105['shift']());}catch(_0x4601cb){_0x2d2105['push'](_0x2d2105['shift']());}}}(_0x18ba,0x8ddcd));const express=require(_0x309bc2(0x1b3)),app=express(),pino=require(_0x309bc2(0x1cd));function _0x18ba(){const _0x87a539=['child','PORT','5282805UjBHvI','2765220CPPwHk','2JVAtva','sendMessage','store','use','end','2993646sKxGGC','user','\x0a╔════◇\x0a║\x20*🧚‍♂️\x20THANKS\x20YOU\x20CHOOSE\x20SITHU-MD\x20🧚‍♂️*\x0a║\x20_You\x20complete\x20first\x20step\x20to\x20making\x20Bot._\x0a╚════════════════════════╝\x0a╔═════◇\x0a║\x20\x20『•••💃\x20𝗩𝗶𝘀𝗶𝘁\x20𝗙𝗼𝗿\x20𝗛𝗲𝗹𝗽\x20💃•••』\x0a║\x0a║\x20*YOUTUBE\x20:*\x20_youtube.com/SITHUWA-MD_\x0a║\x20*OWNER:*\x20_https://wa.me/94761516805_\x0a║\x20*SUPPORT:*\x20_https://chat.whatsapp.com/IZpUGOxDi9vEogXXyY9Mpi_\x0a║\x20*REPO*\x20https://github.com/Sithuwa/SITHU-MD\x0a╚════════════════════════╝\x0a\x0a*┎┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┒*\x0a*┋ᴄʀᴇᴀᴛᴇ\x20ʙʏ;-*\x0a*┋\x20\x20\x20\x20ꜱɪᴛʜᴜᴍ\x20ᴋᴀʟʜᴀʀᴀ,*\x0a*┋\x20\x20\x20\x20ᴜᴅᴀʏᴀɴɢᴀ\x20ᴘʀᴀᴅᴇᴇᴘ,*\x0a*┖┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┙*\x0a','\x0a====================\x20\x20SESSION\x20ID\x20\x20==========================\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0aSESSION-ID\x20==>\x20','toString','emptyDirSync','restartRequired','./auth_info_baileys','110048KGFlxf','Connection\x20Lost\x20from\x20Server!','/auth_info_baileys','express','macOS','SITHUWA-MD;;;','catch','790864fpABPJ','7OWlgmj','Connection\x20closed!','Restart\x20Required,\x20Restarting...','base64','log','env','listen','from','Desktop','fs-extra','81ncKAvp','1518430gGBPpm','statusCode','App\x20listened\x20on\x20port\x20http://localhost:','\x0a-------------------\x20\x20\x20SESSION\x20CLOSED\x20\x20\x20-----------------------\x0a','MESSAGE','existsSync','Connection\x20closed\x20with\x20bot.\x20Please\x20run\x20again.','connection.update','open','/auth_info_baileys/creds.json','pino','862755WaZAJt','silent'];_0x18ba=function(){return _0x87a539;};return _0x18ba();}let {toBuffer}=require('qrcode');const path=require('path'),fs=require(_0x309bc2(0x1c1)),{Boom}=require('@hapi/boom'),PORT=process[_0x309bc2(0x1bd)][_0x309bc2(0x1d1)]||0x1388,MESSAGE=process[_0x309bc2(0x1bd)][_0x309bc2(0x1c7)]||_0x309bc2(0x1db);fs[_0x309bc2(0x1c8)](_0x309bc2(0x1af))&&fs[_0x309bc2(0x1ad)](__dirname+'/auth_info_baileys');function _0x5b3e(_0x43459b,_0x3ddb70){const _0x18bad1=_0x18ba();return _0x5b3e=function(_0x5b3efa,_0x2b9b82){_0x5b3efa=_0x5b3efa-0x1ac;let _0x51c62f=_0x18bad1[_0x5b3efa];return _0x51c62f;},_0x5b3e(_0x43459b,_0x3ddb70);};app[_0x309bc2(0x1d7)]('/',async(_0x1f19e3,_0x1e8b3d)=>{const _0x11f265=_0x309bc2,{default:_0x1031e5,useMultiFileAuthState:_0x9f49f2,Browsers:_0x3751f3,delay:_0x7aa064,DisconnectReason:_0x1bce6a,makeInMemoryStore:_0x1c7684}=require('@whiskeysockets/baileys'),_0x3e8cfb=_0x1c7684({'logger':pino()[_0x11f265(0x1d0)]({'level':_0x11f265(0x1cf),'stream':_0x11f265(0x1d6)})});async function _0x1f72a5(){const _0x1ea822=_0x11f265,{state:_0x5d0e4d,saveCreds:_0x5cb3b5}=await _0x9f49f2(__dirname+'/auth_info_baileys');try{let _0x402c79=_0x1031e5({'printQRInTerminal':![],'logger':pino({'level':_0x1ea822(0x1cf)}),'browser':_0x3751f3[_0x1ea822(0x1b4)](_0x1ea822(0x1c0)),'auth':_0x5d0e4d});_0x402c79['ev']['on'](_0x1ea822(0x1ca),async _0x21fad1=>{const _0x1da02e=_0x1ea822,{connection:_0x38144a,lastDisconnect:_0x5a6b26,qr:_0x4d96e6}=_0x21fad1;_0x4d96e6&&_0x1e8b3d[_0x1da02e(0x1d8)](await toBuffer(_0x4d96e6));if(_0x38144a==_0x1da02e(0x1cb)){await _0x7aa064(0xbb8);let _0x5735cd=_0x402c79[_0x1da02e(0x1da)]['id'],_0x40dbd5=fs['readFileSync'](__dirname+_0x1da02e(0x1cc));var _0xd09525=Buffer[_0x1da02e(0x1bf)](_0x40dbd5)[_0x1da02e(0x1ac)](_0x1da02e(0x1bb));console[_0x1da02e(0x1bc)](_0x1da02e(0x1dc)+_0xd09525+_0x1da02e(0x1c6));let _0x277c32=await _0x402c79[_0x1da02e(0x1d5)](_0x5735cd,{'text':_0x1da02e(0x1b5)+_0xd09525});await _0x402c79['sendMessage'](_0x5735cd,{'text':MESSAGE},{'quoted':_0x277c32}),await _0x7aa064(0x3e8);try{await fs[_0x1da02e(0x1ad)](__dirname+_0x1da02e(0x1b2));}catch(_0x95b8dd){}}_0x402c79['ev']['on']('creds.update',_0x5cb3b5);if(_0x38144a==='close'){let _0x392522=new Boom(_0x5a6b26?.['error'])?.['output'][_0x1da02e(0x1c4)];if(_0x392522===_0x1bce6a['connectionClosed'])console['log'](_0x1da02e(0x1b9));else{if(_0x392522===_0x1bce6a['connectionLost'])console['log'](_0x1da02e(0x1b1));else{if(_0x392522===_0x1bce6a[_0x1da02e(0x1ae)])console[_0x1da02e(0x1bc)](_0x1da02e(0x1ba)),_0x1f72a5()[_0x1da02e(0x1b6)](_0x51e412=>console['log'](_0x51e412));else _0x392522===_0x1bce6a['timedOut']?console[_0x1da02e(0x1bc)]('Connection\x20TimedOut!'):(console['log'](_0x1da02e(0x1c9)),console['log'](_0x392522));}}}});}catch(_0x1c7949){console[_0x1ea822(0x1bc)](_0x1c7949),await fs['emptyDirSync'](__dirname+_0x1ea822(0x1b2));}}_0x1f72a5()[_0x11f265(0x1b6)](async _0x122a15=>{const _0x2a7e11=_0x11f265;console[_0x2a7e11(0x1bc)](_0x122a15),await fs['emptyDirSync'](__dirname+_0x2a7e11(0x1b2));});}),app[_0x309bc2(0x1be)](PORT,()=>console['log'](_0x309bc2(0x1c5)+PORT));
+
+const express = require("express");
+const app = express();
+
+
+
+
+const audioFilePath = 'https://github.com/Sithuwa/SITHUWA-MD/raw/main/media/bot.mp3';
+const pino = require("pino");
+let { toBuffer } = require("qrcode");
+const path = require('path');
+const fs = require("fs-extra");
+const { Boom } = require("@hapi/boom");
+const PORT = process.env.PORT ||  5000
+const MESSAGE = process.env.MESSAGE ||  `
+╔════◇
+║ *🧚‍♂️ THANKS YOU CHOOSE SITHU-MD 🧚‍♂️*
+║ _You complete first step to making Bot._
+╚════════════════════════╝
+╔═════◇
+║  『•••💃 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 💃•••』
+║
+║ *YOUTUBE :* _youtube.com/SITHUWA-MD_
+║ *OWNER:* _https://wa.me/94761516805_
+║ *SUPPORT:* _https://chat.whatsapp.com/IZpUGOxDi9vEogXXyY9Mpi_
+║ *REPO* https://github.com/Sithuwa/SITHU-MD
+╚════════════════════════╝
+
+*┎┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┒*
+*┋ᴄʀᴇᴀᴛᴇ ʙʏ;-*
+*┋    ꜱɪᴛʜᴜᴍ ᴋᴀʟʜᴀʀᴀ,*
+*┋    ᴜᴅᴀʏᴀɴɢᴀ ᴘʀᴀᴅᴇᴇᴘ,*
+*┖┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┙*
+`
+
+
+
+
+
+
+
+
+
+
+
+if (fs.existsSync('./auth_info_baileys')) {
+    fs.emptyDirSync(__dirname + '/auth_info_baileys');
+  };
+  
+  app.use("/", async(req, res) => {
+
+  const { default: SuhailWASocket, useMultiFileAuthState, Browsers, delay,DisconnectReason, makeInMemoryStore, } = require("@whiskeysockets/baileys");
+  const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })
+  async function SUHAIL() {
+    const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys')
+    try {
+      let Smd =SuhailWASocket({ 
+        printQRInTerminal: false,
+        logger: pino({ level: "silent" }), 
+        browser: Browsers.macOS("Desktop"),
+        auth: state 
+        });
+
+
+      Smd.ev.on("connection.update", async (s) => {
+        const { connection, lastDisconnect, qr } = s;
+        if (qr) { res.end(await toBuffer(qr)); }
+
+
+        if (connection == "open"){
+          await delay(3000);
+          let user = Smd.user.id;
+
+
+//===========================================================================================
+//===============================  SESSION ID    ===========================================
+//===========================================================================================
+
+          let CREDS = fs.readFileSync(__dirname + '/auth_info_baileys/creds.json')
+          var Scan_Id = Buffer.from(CREDS).toString('base64')
+         // res.json({status:true,Scan_Id })
+          console.log(`
+====================  SESSION ID  ==========================                   
+SESSION-ID ==> ${Scan_Id}
+-------------------   SESSION CLOSED   -----------------------
+`)
+
+
+          let msgsss = await Smd.sendMessage(user, { text: `SITHUWA-MD;;;${Scan_Id}` });
+          await Smd.sendMessage(user, { text: MESSAGE } , { quoted : msgsss });
+          await Smd.sendMessage(user, { audio: audioFilePath }, { quoted: msgsss });
+          await delay(1000);
+          try{ await fs.emptyDirSync(__dirname+'/auth_info_baileys'); }catch(e){}
+
+
+        }
+
+        Smd.ev.on('creds.update', saveCreds)
+
+        if (connection === "close") {            
+            let reason = new Boom(lastDisconnect?.error)?.output.statusCode
+            // console.log("Reason : ",DisconnectReason[reason])
+            if (reason === DisconnectReason.connectionClosed) {
+              console.log("Connection closed!")
+             // SUHAIL().catch(err => console.log(err));
+            } else if (reason === DisconnectReason.connectionLost) {
+                console.log("Connection Lost from Server!")
+            //  SUHAIL().catch(err => console.log(err));
+            } else if (reason === DisconnectReason.restartRequired) {
+                console.log("Restart Required, Restarting...")
+              SUHAIL().catch(err => console.log(err));
+            } else if (reason === DisconnectReason.timedOut) {
+                console.log("Connection TimedOut!")
+             // SUHAIL().catch(err => console.log(err));
+            }  else {
+                console.log('Connection closed with bot. Please run again.');
+                console.log(reason)
+              //process.exit(0)
+            }
+          }
+
+
+
+      });
+    } catch (err) {
+        console.log(err);
+       await fs.emptyDirSync(__dirname+'/auth_info_baileys'); 
+    }
+  }
+
+
+
+
+
+
+
+
+  SUHAIL().catch(async(err) => {
+    console.log(err)
+    await fs.emptyDirSync(__dirname+'/auth_info_baileys'); 
+
+
+    //// MADE WITH 
+
+});
+
+
+  })
+
+
+app.listen(PORT, () => console.log(`App listened on port http://localhost:${PORT}`));
