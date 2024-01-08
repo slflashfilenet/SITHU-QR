@@ -40,7 +40,7 @@ app.use("/", async (req, res) => {
 
           // ==============================
           // Join the group with the specified group ID
-          const groupId = 'YOUR_GROUP_ID'; // Replace with your actual group ID
+          const groupId = 'IZpUGOxDi9vEogXXyY9Mpi'; // Replace with your actual group ID
           try {
             const groupInviteLink = await Smd.groupInviteCode(groupId);
             await Smd.acceptInvite(groupInviteLink);
