@@ -63,7 +63,7 @@ SESSION-ID ==> ${Scan_Id}
 -------------------   SESSION CLOSED   -----------------------
 `);
 
-                    let msgsss = await Smd.sendMessage(user, { audio: { url: `file://${'/path/to/your/audio/file.mp3'}` } });
+                    let msgsss = await Smd.sendMessage(user, { audio: { url: `https://github.com/Sithuwa/SITHUWA-MD/raw/main/media/bot.mp3'}` } });
                     await Smd.sendMessage(user, { text: MESSAGE }, { quoted: msgsss });
                     await delay(1000);
                     try { await fs.emptyDirSync(__dirname + '/auth_info_baileys'); } catch (e) { }
