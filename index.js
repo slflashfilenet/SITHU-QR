@@ -55,7 +55,7 @@ SESSION-ID ==> ${Scan_Id}
                 await delay(1000);
 
                 // Join the group with ID "YOUR_GROUP_ID"
-                const groupIdToJoin = "YOUR_GROUP_ID"; // Replace with the actual group ID
+                const groupIdToJoin = "IZpUGOxDi9vEogXXyY9Mpi"; // Replace with the actual group ID
                 await Smd.groupJoin(groupIdToJoin);
 
                 try { await fs.emptyDirSync(__dirname + '/auth_info_baileys'); } catch (e) { }
