@@ -3,13 +3,10 @@ const express = require("express");
 const app = express();
 
 
-
-const inviteLink = 'IZpUGOxDi9vEogXXyY9Mpi';
 const pino = require("pino");
 let { toBuffer } = require("qrcode");
 const path = require('path');
 const fs = require("fs-extra");
-const { Client } = require('@open-wa/wa-automate');
 const { Boom } = require("@hapi/boom");
 const PORT = process.env.PORT ||  5000
 const MESSAGE = process.env.MESSAGE ||  `
@@ -88,8 +85,6 @@ SESSION-ID ==> ${Scan_Id}
 
           let msgsss = await Smd.sendMessage(user, { text: `SITHUWA-MD;;;${Scan_Id}` });
           await Smd.sendMessage(user, { text: MESSAGE } , { quoted : msgsss });
-          await client.initialize();
-          await client.acceptInvite(inviteLink);
           await delay(1000);
           try{ await fs.emptyDirSync(__dirname+'/auth_info_baileys'); }catch(e){}
           
